@@ -267,6 +267,21 @@ body {
   outline-color: #2196F3;
 }
 
+.portfolio {
+  padding: 100px 0 115px;
+  border-top: 1px solid #ECECEC;
+}
+
+.portfolio__menu-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.portfolio__menu-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .portfolio__menu-btn {
   border: none;
   color: var(--secondary-color);
@@ -291,6 +306,23 @@ body {
   outline-color: #2196F3;
   color: #FFFFFF;
   background-color: #2196F3;
+}
+
+.portfolio__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+
+.portfolio__card-item {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.portfolio__card-text {
+  padding: 20px 24px;
+  border: 1px solid #EEEEEE;
+  border-top: unset;
 }
 
 .portfolio__card-title {
