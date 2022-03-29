@@ -1,0 +1,215 @@
+:root {
+  --main-color: #757575;
+  --secondary-color: #212121;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: var(--main-color);
+
+  font-family: 'Roboto','sans-serif';
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+
+}
+
+.logo {
+  font-family: 'Raleway','sans-serif';
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  
+  text-decoration: none;
+  color: #2196F3;
+}
+
+.header__logo > span {
+  color: #000000;
+}
+
+.header__menu-link {
+  color: var(--secondary-color);
+
+  font-weight: 500;
+
+  transition: color 0.5s;
+}
+
+.header__menu-link:hover,
+.header__contacts-link:hover {
+  color: #2196F3;
+}
+
+.header__menu-link:focus,
+.header__contacts-link:focus {
+  color: #FFFFFF;
+  background-color: #2196F3;
+  outline-color: #2196F3;
+}
+
+
+
+.header__contacts-link {
+  color: var(--main-color);
+
+  font-weight: 500;
+
+  transition: color 0.5s;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+
+  color: #FFFFFF;
+}
+
+.hero__button {
+  border: none;
+  padding: 10px 32px;
+  cursor: pointer;
+  
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 700;
+  
+  color: #FFFFFF;
+  background-color: #2196F3;
+  letter-spacing: 0.06em;
+  
+}
+
+.peculiarity__title {
+  color: var(--secondary-color);
+
+  font-size: inherit;
+  text-transform: uppercase;
+}
+
+.peculiarity__text {
+  line-height: 1.7;
+}
+
+.business__title,
+.team__title {
+  color: var(--secondary-color);
+
+  font-size: 36px;
+  line-height: 1.16;
+
+  text-align: center;
+}
+
+.team {
+  background-color: #F5F4FA;
+}
+
+.team__item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  max-width: 270px;
+
+  text-align: center;
+}
+
+.team__title-name {
+  font-size: 16px;
+  line-height: 1.12;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.team__text {
+  line-height: 1.1;
+  font-size: 16px;
+}
+
+.footer,
+.hero {
+  background-color: #2F303A;
+}
+
+.footer__logo > span {
+  color: #FFFFFF;
+}
+
+.footer__link {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
+  font-style: normal;
+
+  transition: color 0.5s;
+}
+
+.footer__address-link {
+  color: #FFFFFF;
+}
+
+.footer__link:hover {
+  color: #2196F3;
+}
+
+.footer__link:focus {
+  color: #FFFFFF;
+  background-color: #2196F3;
+  outline-color: #2196F3;
+}
+
+.portfolio__menu-btn {
+  border: none;
+  color: var(--secondary-color);
+  background-color: #F5F4FA;
+  padding: 6px 22px;
+  cursor: pointer;
+
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+
+  transition: color 0.5s;
+}
+
+.portfolio__menu-btn:hover {
+  background-color: #2196F3;
+  color: #FFFFFF;
+}
+
+.portfolio__menu-btn:focus {
+  outline-color: #2196F3;
+  color: #FFFFFF;
+  background-color: #2196F3;
+}
+
+.portfolio__card-title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+
+  color: var(--secondary-color);
+}
+
+.portfolio__card-link {
+  font-size: 16px;
+  line-height: 1.87;
+  color: inherit;
+}
