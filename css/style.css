@@ -1,3 +1,5 @@
+/* __GLOBAL__*/
+
 :root {
   --main-color: #757575;
   --secondary-color: #212121;
@@ -31,11 +33,22 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
+.title {
+  color: var(--secondary-color);
+
+  font-size: 36px;
+  line-height: 1.16;
+  margin-bottom: 50px;
+
+  text-align: center;
+}
+
+/* __HEADER__*/
+
 .header {
-  padding: 25px 0;
+  padding: 25px 15px;
 }
 
 .header__inner {
@@ -106,6 +119,8 @@ body {
   transition: color 0.5s;
 }
 
+/*__HERO__*/
+
 .hero {
   text-align: center;
   padding: 200px 0;
@@ -116,8 +131,9 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  max-width: 600px;
+  max-width: 650px;
   margin: 0 auto 30px;
+  text-transform: uppercase;
 
   color: #FFFFFF;
 }
@@ -138,8 +154,10 @@ body {
   
 }
 
+/* __PECULIARITY__*/
+
 .peculiarity {
-  padding: 95px 0;
+  padding: 95px 15px;
 }
 
 .peculiarity__list {
@@ -160,37 +178,27 @@ body {
   max-width: 250px;
 }
 
-.title {
-  color: var(--secondary-color);
-
-  font-size: 36px;
-  line-height: 1.16;
-  margin-bottom: 50px;
-
-  text-align: center;
-}
+/* __BUSINESS__*/
 
 .business {
-  padding-bottom: 95px;
+  padding: 0 15px 95px 15px;
 }
 
 .business__list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.business__item:not(:last-child) {
-  margin-right: 30px;
-}
+/* __TEAM__*/
 
 .team {
   background-color: #F5F4FA;
-  padding: 95px 0;
+  padding: 95px 15px;
 }
 
 .team__list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .team__item {
@@ -200,10 +208,6 @@ body {
   max-width: 270px;
 
   text-align: center;
-}
-
-.team__item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .team__inner {
@@ -223,8 +227,10 @@ body {
   font-size: 16px;
 }
 
+/* __FOOTER__*/
+
 .footer {
-  padding: 60px 0;
+  padding: 60px 15px;
 }
 
 .footer__logo {
@@ -267,8 +273,10 @@ body {
   outline-color: #2196F3;
 }
 
+/* __PORTFOLIO__*/
+
 .portfolio {
-  padding: 100px 0 115px;
+  padding: 100px 15px 115px 15px;
   border-top: 1px solid #ECECEC;
 }
 
@@ -287,6 +295,7 @@ body {
   color: var(--secondary-color);
   background-color: #F5F4FA;
   padding: 6px 22px;
+  border-radius: 4px;
   cursor: pointer;
 
   font-family: inherit;
@@ -310,13 +319,8 @@ body {
 
 .portfolio__card-list {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin-left: -30px;
-}
-
-.portfolio__card-item {
-  margin-top: 30px;
-  margin-left: 30px;
 }
 
 .portfolio__card-text {
